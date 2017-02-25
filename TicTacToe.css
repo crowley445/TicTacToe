@@ -1,0 +1,36 @@
+body,
+#game_board li,
+#game_control{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#game_board{
+	width: 400px;
+	height: 400px;
+	padding: 0;
+	border: 2px solid #555;
+}
+
+#game_board li{
+	list-style-type: none;
+	text-align: center;
+	border: 2px solid #ccc;
+	height: 33.5%;
+	font-size: 4rem;
+}
+
+#game_board li:hover {
+	border-color: #666;
+}
+
+#game_control{
+	width: 400px;
+	height: 50px;
+	border: 2px solid #555;
+	flex-direction:  row;
+	justify-content: space-between;
+	padding: 20px;
+}
